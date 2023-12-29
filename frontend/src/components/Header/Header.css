@@ -1,0 +1,29 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 5;
+    padding: 1.5rem 18rem;
+}
+#header ul {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    list-style: none;
+}
+#header ul li a{
+    text-decoration: none;
+    color: #222222;
+}
+#header ul li a:hover{
+    color: #6c7ae0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
